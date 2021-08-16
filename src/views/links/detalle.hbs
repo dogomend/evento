@@ -5,11 +5,17 @@
             <div class="card text-center">
                 <div class="card-body">
                   <p>
-                    {{description}}
-                   DETALLE {{event.description}}
+                   DETALLE 
                   </p>
-                    
-                    
+                   <ul>
+                        <li>Titulo : {{{event.title}}}</li>
+                        <li>Lugar: {{{event.lugar}}}</li>
+                        <li>Precio: {{{event.precio}}}</li>
+                        <li>Fecha: {{{event.fecha}}}</li>
+                        <li>Destacado: {{{event.destacado}}}</li>
+                        <li>Creado: {{{event.created_at}}}</li>
+                    </ul> 
+                    <img src="{{{event.url}}}" width="120px" height="120px">
                     <a class="btn btn-secondary" href="/links/total">
                         salir
                     </a>

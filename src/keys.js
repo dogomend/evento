@@ -4,7 +4,7 @@ module.exports = {
         connectionLimit: 10,
         host: 'localhost',
         user: 'root',
-        password: 'Password1',
+        password: '',
         database: 'database_event',
         //insecureAuth : true
     }
